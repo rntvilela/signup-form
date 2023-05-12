@@ -10,3 +10,30 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+.container {
+	background-color: #222222;
+	color: #eeeeee;
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 60%;
+	height: 100%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	width: 700px;
+	height: 200px;
+}
+
+.input {
+	padding: 50px;
+	background-color: #111111;
+}
+
+.div {
+	padding: 50px;
+}
