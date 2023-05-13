@@ -97,14 +97,21 @@ input {
 	border: 2px solid #eeeeee;
 	padding: 2px;
 	font-family: "JetBrains Mono", sans-serif;
-	font-size: 16px;
-
+	font-size: 14px;
 }
 
 input:focus {
 	outline: none;
 	border: 2px solid #00297f;
 	box-shadow: 0px 0px 5px #00297f;
+}
+
+.error {
+	border: 2px solid red;
+}
+
+.match {
+	border: 2px solid green;
 }
 
 .form-account {

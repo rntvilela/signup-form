@@ -25,33 +25,33 @@
 				Sign up <em>now</em> to get started.</p>
 				<p>You <em>know</em> you want to.</p>
 			</div>
-			<form>
+			<form id="form">
 				<div class="form-bg">
 					<p>Let's do this!</p>
 					<div class="form-grid">
 						<div>
 							<label for="fname">FIRST NAME</label><br>
-							<input type="text" id="fname" name="fname"><br>
+							<input type="text" id="fname" name="fname" required maxlength="20"><br>
 						</div>
 						<div>
 							<label for="lname">LAST NAME</label><br>
-							<input type="text" id="lname" name="lname"><br>
+							<input type="text" id="lname" name="lname" required maxlength="20"><br>
 						</div>
 						<div>
 							<label for="email">EMAIL</label><br>
-							<input type="email" id="email" name="email"><br>
+							<input type="email" id="email" name="email" required maxlength="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]+$" title="Invalid email address"><br>
 						</div>
 						<div>
 							<label for="phone">PHONE</label><br>
-							<input type="text" id="phone" name="phone"><br>
+							<input type="text" id="phone" name="phone" required maxlength="14" pattern="(\(?\d{2}\)?\d{5}-?\d{4})" title="Invalid phone number"><br>
 						</div>
 						<div>
 							<label for="password">PASSWORD</label><br>
-							<input type="password" id="password" name="password"><br>
+							<input type="password" id="passwd" name="password" required><br>
 						</div>
 						<div>
 							<label for="cpassword">CONFIRM PASSWORD</label><br>
-							<input type="password" id="cpassword" name="cpassword"><br>
+							<input type="password" id="cpasswd" name="cpassword" required><br>
 						</div>
 					</div>
 				</div>
